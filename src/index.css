@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.theme-dark {
+  --dark-text: #ffffff;
+  --light-text: #6f6e6e;  
+  --dark-background: #3b3b3b;
+  --light-background: #525252;
+  --accent: #B8DBD9;
+  --button-border: #B8DBD9;
+  --button-background: #7c7c7c;
+}
+
+.theme-light {
+  --dark-text: #5E4B56;
+  --light-text: #5E4B56;
+  --dark-background: #e5e5e5;
+  --light-background: #EDDCD2;
+  --accent: #DBE7E4;
+  --button-border: #5E4B56;
+}
+
+html, #root {
+  background-color: var(--dark-background);
+  color: var(--dark-text);
+}
+
+nav {
+  background-color: var(--dark-background);
+  color: var(--light-text);
+}
+
+.main-container {
+  background-color: var(--light-background);
+}
