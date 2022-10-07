@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 export default function ApiExample() {
-  const [items, setItems] = useStates([]);
+  const [items, setItems] = useState([]);
 
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/users")
