@@ -6,7 +6,7 @@ function Header() {
   return (
     <Navbar>
       <Container>
-        <Navbar.Brand href="#home" class="titlenav">Cours React</Navbar.Brand>
+        <Navbar.Brand href="#home" className="titlenav">Cours React</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <SwitchDarkMode />
       </Container>
