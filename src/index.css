@@ -62,8 +62,8 @@ html, #root {
 .switch-color-btn:hover, .switch-color-btn:active{
   background-color: var(--dark-background);
   transform: scale(1.2);
-  transform: rotate(180deg);
-  transition: all 1s ease-out;
+  transform: rotate(360deg);
+  transition: all 2s ease-out;
 }
 
 .theme-dark .switch-color-btn{
