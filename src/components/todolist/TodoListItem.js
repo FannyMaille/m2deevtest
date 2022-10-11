@@ -22,7 +22,7 @@ function TodoListItem({todoItem, todoList, setTodoList}) {
     };
 
     return(
-        <div style={itemStyle} className="listItem">
+        <div style={itemStyle} className="listItem d-flex justify-content-between align-items-center">
             <h5 style={itemNameStyle}>{todoItem.name}</h5>
             <Button onClick={deleteTodoItem} style={itemBtnStyle} variant="danger">Done</Button>
         </div>

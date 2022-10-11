@@ -11,7 +11,7 @@ function App() {
   });
 
   return (
-    <div className="App" useEffect>
+    <div className="App d-flex p-5 gap-3" useEffect>
       <Todo />
       <ApiExample />
     </div>

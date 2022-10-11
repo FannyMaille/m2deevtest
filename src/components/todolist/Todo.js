@@ -8,8 +8,8 @@ function Todo() {
     const [todoList, setTodoList] = useState([]);
 
     return(
-        <div className="container">
-          <h1>To do list</h1>
+        <div className="container border border-secondary p-4">
+          <h1 className='border-bottom mb-3 pb-3 border-secondary'>To do list</h1>
             <TodoForm todo={todo} 
                 setTodo={setTodo} 
                 todoList={todoList} 

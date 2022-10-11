@@ -14,8 +14,8 @@ export default function ApiExample() {
   }, []);
 
   return (
-    <div className="container">
-      <h5>Api Example :</h5>
+    <div className="container border border-secondary p-4">
+      <h1 className='border-bottom mb-3 pb-3 border-secondary'>Api Example :</h1>
       {items.map((item) => (
         <p>{item.name}</p>
       ))}

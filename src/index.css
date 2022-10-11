@@ -32,6 +32,7 @@ code {
   --button-border: #5E4B56;
 }
 
+
 html, #root {
   background-color: var(--dark-background);
   color: var(--dark-text);

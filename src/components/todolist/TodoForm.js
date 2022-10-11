@@ -16,7 +16,7 @@ function TodoForm({ todo, setTodo, todoList, setTodoList }) {
   return (
     <div className="todoForm">
       <Form onSubmit={handleSubmit}>
-        <FormGroup className="mb-3">
+        <FormGroup className="mb-3 d-flex gap-3">
           <FormControl value={todo} onChange={handleChange} type="text" />
           <Button variant="primary" type="submit">
             Add
