@@ -36,13 +36,21 @@ code {
 html, #root {
   background-color: var(--dark-background);
   color: var(--dark-text);
+  transition: all 1s ease-out;
+}
+
+.theme-dark .btn-primary{
+  background-color: var(--button-background);
+  border: var(--button-border);
 }
 
 nav {
   background-color: var(--dark-background);
   color: var(--light-text);
+  transition: all 1s ease-out;
 }
 
 .main-container {
   background-color: var(--light-background);
+  transition: all 1s ease-out;
 }
