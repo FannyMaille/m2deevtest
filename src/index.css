@@ -27,7 +27,7 @@ code {
   --dark-text: #5E4B56;
   --light-text: #5E4B56;
   --dark-background: #e5e5e5;
-  --light-background: #EDDCD2;
+  --light-background: #dcd9d7;
   --accent: #DBE7E4;
   --button-border: #5E4B56;
 }
@@ -44,9 +44,14 @@ html, #root {
   border: var(--button-border);
 }
 
+.switch-color-btn{
+  background-color: var(--button-background);
+  border: var(--button-border);
+}
+
 nav {
-  background-color: var(--dark-background);
-  color: var(--light-text);
+  background-color: var(--light-background);
+  color: var(--dark-text);
   transition: all 1s ease-out;
 }
 

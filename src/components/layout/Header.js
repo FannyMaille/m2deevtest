@@ -4,7 +4,7 @@ import SwitchDarkMode from "../switch/SwitchDarkMode";
 
 function Header() {
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar>
       <Container>
         <Navbar.Brand href="#home">Cours React</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
