@@ -39,6 +39,10 @@ html, #root {
   transition: all 1s ease-out;
 }
 
+.titlenav {
+  color: var(--dark-text);
+}
+
 .theme-dark .btn-primary{
   background-color: var(--button-background);
   border: var(--button-border);
